@@ -1,0 +1,148 @@
+.footer{
+  height: $height_footer;
+  width: 100%;
+  position: relative;
+  background: #ffffff;
+  @extend %clearfix;
+}
+
+.footer__logo{
+  display: table;
+  height: $height_footer;
+  float: left;
+}
+
+.footer__logo-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+.footer__logo-img{
+  width: 224px;
+  height: 55px;
+}
+
+
+
+.footer__content{
+  @include inlineblock(middle);
+  line-height:$height_footer;
+  float: left;
+  margin-left: 50px;
+}
+
+.footer__content-list{
+  font-family: Arial;
+  display: inline-block;
+}
+
+.footer__content-item{
+  display: inline-block;
+  margin-left: 23px;
+  line-height: 1.42;
+}
+
+
+
+
+
+//footer__socials
+
+
+.footer__right{
+  position: relative;
+  float: right;
+  height: $height_footer;
+}
+
+.social__block{
+}
+
+
+.socials{
+  position: absolute;
+  top: 50%;
+  margin-top:-11px;
+  right: 0;
+  width: 250px;
+  height: 22px;
+  @include inlineblock(middle);
+}
+
+.socials__list{
+  display: block;
+}
+
+.socials__item{
+  margin: 0;
+  padding: 0;
+  float: left;
+   margin-right: 20px;
+}
+
+.social__link-fb {
+    background: url(../img/footer/fb.png) no-repeat;
+    display: block;
+    width: 11px;
+    height:22px;
+    //margin-right: 35px;
+      &:hover{
+        background: url(../img/footer/fb_color.png) no-repeat;
+        display: block;
+        width: 11px;
+        height: 22px;
+      }
+}
+
+.social__link-in {
+    background: url(../img/footer/in.png) no-repeat;
+    display: block;
+    width: 25px;
+    height:22px;
+  //  margin-right: 35px;
+      &:hover{
+        background: url(../img/footer/in_color.png) no-repeat;
+        display: block;
+        width: 25px;
+        height: 22px;
+      }
+}
+
+.social__link-ok {
+    background: url(../img/footer/ok.png) no-repeat;
+    display: block;
+    width: 13px;
+    height:22px;
+  //  margin-right: 35px;
+      &:hover{
+        background: url(../img/footer/ok_color.png) no-repeat;
+        display: block;
+        width: 13px;
+        height: 22px;
+      }
+}
+
+.social__link-tw {
+    background: url(../img/footer/tw.png) no-repeat;
+    display: block;
+    width: 25px;
+    height:22px;
+      &:hover{
+        background: url(../img/footer/tw_color.png) no-repeat;
+        display: block;
+        width: 25px;
+        height: 22px;
+      }
+}
+
+.social__link-vk {
+    background: url(../img/footer/vk.png) no-repeat;
+    display: block;
+    width: 22px;
+    height:22px;
+      &:hover{
+        background: url(../img/footer/vk_color.png) no-repeat;
+        display: block;
+        width: 22px;
+        height: 22px;
+      }
+}

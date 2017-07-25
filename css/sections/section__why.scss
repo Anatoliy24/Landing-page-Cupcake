@@ -1,0 +1,75 @@
+.section-why{
+  background: #c8c8c8; /* Old browsers */
+  background: -moz-linear-gradient(top, #c8c8c8 0%, #e0e1e0 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #c8c8c8 0%,#e0e1e0 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #c8c8c8 0%,#e0e1e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8c8c8', endColorstr='#e0e1e0',GradientType=0 ); /* IE6-9 */
+  @extend %clearfix;
+  min-height: 760px;
+}
+
+.section-why__content-why{
+   @extend %clearfix;
+}
+
+.content-why__left{
+  width: 50%;
+  padding: 90px 0 125px 70px;
+}
+
+.header__why{
+  font-size: 62px;
+  margin-bottom: 35px;
+  color: #2b2f5f;
+}
+
+.section-why__desc{
+  font-family: Arial;
+  margin-bottom: 65px;
+  color: #747474;
+  max-width: 410px;
+  text-align: justify;
+}
+
+.section-why__list{
+  display: inline-block;
+
+}
+
+.section-why__item{
+  display: inline-block;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.section-why__item:first-child{
+  margin-left: 0;
+}
+
+.section-why__item-img{
+  height: 92px;
+}
+
+.section-why__item-text{
+  color: #747474;
+  margin-left: 10px;
+  margin-top: 35px;
+}
+
+.content-why__right{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 35%;
+  float: right;
+  margin-left: 60px;
+}
+
+.section-why__big-img{
+  position: absolute;
+  display: block;
+  height: 707px;
+  width: 387px;
+  bottom: 0;
+
+}

@@ -1,0 +1,7 @@
+.section-why {
+  /*background: #c8c8c8; /* Old browsers */
+  /*background: -moz-linear-gradient(top, #c8c8c8 0%, #e0e1e0 100%); /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(top, #c8c8c8 0%,#e0e1e0 100%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(to bottom, #c8c8c8 0%,#e0e1e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8c8c8', endColorstr='#e0e1e0',GradientType=0 ); /* IE6-9 */
+  color: #ffffff; }
